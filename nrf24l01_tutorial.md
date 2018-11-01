@@ -15,7 +15,8 @@ The module is very useful for short range radio communication, small data packet
 
 * I have provided a breakout board which makes the NRF24L01 easy to connect to a breadboard, it needs to be soldered. Pay attention to the image:
 
-image
+![nrf24l01solderA](https://electricnoodlebox.files.wordpress.com/2018/11/nrfsolder1.jpg)
+![nrf24lo1solderB](https://electricnoodlebox.files.wordpress.com/2018/11/nrfsolder2.jpg)
 
 * **WARNING This is a 3v3 device, not 5V!! Connecting to 5V will permanently damage the module, use the 3v3 pin on the Arduino to power the module**
 * Connect the module like so:
@@ -31,8 +32,9 @@ image
 | SCK | 13 |
 | IRQ | Not required |
 
-Image 1
-Image 2
+![nrf24l01wired1](https://electricnoodlebox.files.wordpress.com/2018/11/nrfarduino2.jpg)
+![nrf24lo1wired2](https://electricnoodlebox.files.wordpress.com/2018/11/nrfarduino1.jpg)
+
 
 ## Examples
 	

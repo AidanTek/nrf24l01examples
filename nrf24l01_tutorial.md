@@ -351,9 +351,9 @@ void loop() {
 }
 ```
 
-### Tranceiver
+### Transceiver
 
-A tranceiver is a device that can both send and receive signals - the nRF24L01 is a radio tranceiver module, this means that one Arduino can both send and receive radio signals. In the example below, two Arduinos can be used to talk to each other. A button should be added to pin 2 on both Arduinos. You will need to make sure you change the send_id and receive_id on each Arduino - make sure each Arduino is sending data to the right ID!
+A transceiver is a device that can both send and receive signals - the nRF24L01 is a radio transceiver module, meaning a sketch running on an Arduino or similar device can be used to both send and receive radio signals. In the example below, two Arduinos can be used to talk to each other. A button should be added to pin 2 on both Arduinos. You will need to make sure you change the send_id and receive_id on each Arduino - make sure each Arduino is sending data to the right ID!
 
 When the button is pressed on one of the Arduinos, a radio packet (the number '255') will be sent to the other. On receipt of this message, the receiver will generate a random number (between 1 and 50) and send it back to the other, which will print the message over serial to confirm it is received. 
 

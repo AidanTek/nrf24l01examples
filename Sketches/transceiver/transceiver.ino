@@ -82,6 +82,7 @@ void loop() {
     }
   }
 
+  // Next we check for an incoming radio packet:
   while(radio.hasData()) {
     radio.readData(&data_rx); // & must be placed in front of the variable
 

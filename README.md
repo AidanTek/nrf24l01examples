@@ -6,9 +6,11 @@ This repository demonstrates how to use the nRF24L01 2.4GHz radio module as a tr
 
 The tutorials use Dave Parsons NRFLite library which can be found here: [NRFLite](https://github.com/dparson55/NRFLite) 
 
-The NRFLite library is provided under the MIT License:
 
-MIT License
+*The NRFLite library is provided under the MIT License:*
+
+
+## MIT License
 
 Copyright (c) 2017 Dave Parson
 

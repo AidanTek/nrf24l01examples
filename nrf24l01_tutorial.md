@@ -4,7 +4,7 @@
 
 The nRF24L01 is a module which includes a radio chip and antenna. It operates at frequencies around 2.4GHz. The modules can be set to one of 125 (0 - 124) channels, with each channel being seperated by 1MHz and multiple modules can communicate on a single channel. Each module on a channel can be given a unique ID, so it is easy to create a network of devices that can talk to each other over a short range.
 
-The module is very useful for short range radio communication, small data packets can be sent between multiple data packets for fast wireless communication, great for remote control devices like toys, home automation and robotics.
+The module is very useful for short range radio communication, small data packets can be sent between multiple devices for fast wireless communication, great for remote control devices like toys, home automation and robotics.
 
 ## Library
 
